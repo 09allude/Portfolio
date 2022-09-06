@@ -15,8 +15,9 @@ const AboutContent = () => {
             <img src={Logo_pic} alt="logoPic" />
             <h1>Who Am I?</h1>
             <p>
-                Im a react front-end developer. I create responsive
-                secure websites fo my clients.
+                Hello! My name is Jojie Mark Nieto and Im currently
+                learning to be come a react js front-end developer. I created this
+                web app to show what I can to using REACT JS.
             </p>
             <Link to="/contact">
                 <button className="btn">Contact</button>

@@ -10,7 +10,7 @@
 }
 
 .header-bg {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(43, 43, 43, 0.85);
     transition: 0.5s;
 }
 
@@ -20,6 +20,7 @@
 
 .nav-menu li {
     padding: 0 1rem;
+    list-style-type: none;
 }
 
 .nav-menu li a {
@@ -43,7 +44,7 @@
         top: 0;
         left: -100%;
         z-index: -3;
-        transition: 0.3s;
+        transition: 0.5s;
     }
 
     .nav-menu.active{
@@ -52,6 +53,14 @@
 
     .nav-menu li {
         padding: 1rem 0;
+        list-style-type: none;
+    }
+
+    .nav-menu li:hover {
+        background: rgba(175, 175, 175, 0.4);
+        width: 100%;
+        transition: 0.4s;
+        text-align: center;
     }
 
     .nav-menu li a {
@@ -63,8 +72,8 @@
     }
 }
 
-.logo_pic {
+/* .logo_pic {
     width: 15%;
     position: relative;
     display: flex;
-}
+} */
